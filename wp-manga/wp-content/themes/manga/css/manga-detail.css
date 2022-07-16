@@ -1,0 +1,11 @@
+
+.manga-overview .portrait{
+    max-width: 400px;
+}
+
+@media (min-width: 600px){
+    .manga-overview inner-column{
+        display: flex;
+        flex-direction: row;
+    }
+}

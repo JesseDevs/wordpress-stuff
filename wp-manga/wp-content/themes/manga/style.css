@@ -1,0 +1,20 @@
+/*
+Theme Name: Manga
+Author: @Jessedevs
+Author URI: JesseDevs.info
+Version: .01
+Text Domain: Manga
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import 'css/reset.css';
+@import 'css/setup.css';
+@import 'css/typography.css';
+@import 'css/components.css';
+@import 'css/manga-list.css';
+@import 'css/manga-detail.css';
+
+body{
+    background-color: lightcoral;
+}

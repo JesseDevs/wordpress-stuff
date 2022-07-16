@@ -1,0 +1,31 @@
+.manga-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 1em;
+}
+
+.manga-list picture{
+    max-width: 250px;
+}
+
+.manga-list li{
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+manga-card{
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(2 2 2 /.2)
+
+}
+
+manga-card .portrait{
+    height: 0;
+    padding-bottom: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
